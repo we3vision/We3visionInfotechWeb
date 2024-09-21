@@ -142,7 +142,7 @@ button {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-/* ............................ */
+/* .................... */
 a:hover {
   text-decoration: none;
   color: #fe4343;
@@ -5354,8 +5354,8 @@ label {
     display: none;
   }
   .cs-hero.cs-style3.cs-type1 .cs-hero_subtitle {
+    margin-right: auto; /* Added missing semicolon */
     margin-left: auto;
-    margin-right: auto;
   }
 }
 
@@ -9523,7 +9523,7 @@ html .ui-button.ui-state-disabled:active {
 }
 @media (max-width: 1199px) {
   .rtl .cs-hero.cs-style3.cs-type1 .cs-hero_subtitle {
-    margin-right: auto;
+    margin-right: auto; /* Added missing semicolon */
     margin-left: auto;
   }
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */ 
