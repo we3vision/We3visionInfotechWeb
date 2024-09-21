@@ -3189,6 +3189,33 @@ label {
             transform: translateX(-50%);
   }
 }
+
+/* Add this CSS to your style.css file */
+
+/* Default styling for larger screens */
+.cs-hero_subtitle {
+  font-size: 1.5rem; /* Adjust as needed */
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Styling for tablets */
+@media (max-width: 768px) {
+  .cs-hero_subtitle {
+    font-size: 1.2rem; /* Adjust as needed */
+    line-height: 1.4;
+    padding: 15px;
+  }
+}
+
+/* Styling for mobile devices */
+@media (max-width: 480px) {
+  .cs-hero_subtitle {
+    font-size: 1rem; /* Adjust as needed */
+    line-height: 1.2;
+    padding: 10px;
+  }
+}
 .cs-testimonial_slider_2 .slider-for .slick-arrow:hover {
   background-color: transparent;
   opacity: 0.75;
