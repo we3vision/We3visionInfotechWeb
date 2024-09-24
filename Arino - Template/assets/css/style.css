@@ -4236,7 +4236,7 @@ label {
   .cs-munu_toggle span:after {
     width: 100%;
     height: 2px;
-    background-color: currentColor;
+    background-color: rgb(103, 105, 109);
     display: block;
   }
   .cs-munu_toggle span {
