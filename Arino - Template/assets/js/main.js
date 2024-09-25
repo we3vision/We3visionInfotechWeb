@@ -390,6 +390,31 @@
   /*--------------------------------------------------------------
     11. Counter Animation
   --------------------------------------------------------------*/
+
+  // old code
+
+  // function counterInit() {
+  //   if ($.exists('.odometer')) {
+  //     $(window).on('scroll', function () {
+  //       function winScrollPosition() {
+  //         var scrollPos = $(window).scrollTop(),
+  //           winHeight = $(window).height();
+  //         var scrollPosition = Math.round(scrollPos + winHeight / 1.2);
+  //         return scrollPosition;
+  //       }
+
+  //       $('.odometer').each(function () {
+  //         var elemOffset = $(this).offset().top;
+  //         if (elemOffset < winScrollPosition()) {
+  //           $(this).html($(this).data('count-to'));
+  //         }
+  //       });
+  //     });
+  //   }
+  // }
+
+
+// new code
   function counterInit() {
     if ($.exists('.odometer')) {
       $(window).on('scroll', function () {
@@ -399,16 +424,26 @@
           var scrollPosition = Math.round(scrollPos + winHeight / 1.2);
           return scrollPosition;
         }
-
+  
         $('.odometer').each(function () {
           var elemOffset = $(this).offset().top;
           if (elemOffset < winScrollPosition()) {
-            $(this).html($(this).data('count-to'));
+            var $this = $(this);
+            var countTo = $this.data('count-to');
+  
+            // Reset odometer to 0 before starting the animation again
+            if ($this.html() != countTo) {
+              $this.html(0); // Reset to 0
+              setTimeout(function () {
+                $this.html(countTo); // Trigger counting to the original value
+              }); // Optional delay before starting the count again
+            }
           }
         });
       });
     }
   }
+  
 
   /*--------------------------------------------------------------
     12. Ripple
