@@ -415,34 +415,46 @@
 
 
 // new code
-  function counterInit() {
-    if ($.exists('.odometer')) {
+function counterInit() {
+  if ($('.odometer').length) {
+      var scrollTimeout;
+
       $(window).on('scroll', function () {
-        function winScrollPosition() {
-          var scrollPos = $(window).scrollTop(),
-            winHeight = $(window).height();
-          var scrollPosition = Math.round(scrollPos + winHeight / 1.2);
-          return scrollPosition;
-        }
-  
-        $('.odometer').each(function () {
-          var elemOffset = $(this).offset().top;
-          if (elemOffset < winScrollPosition()) {
-            var $this = $(this);
-            var countTo = $this.data('count-to');
-  
-            // Reset odometer to 0 before starting the animation again
-            if ($this.html() != countTo) {
-              $this.html(0); // Reset to 0
-              setTimeout(function () {
-                $this.html(countTo); // Trigger counting to the original value
-              }); // Optional delay before starting the count again
-            }
-          }
-        });
+          // Clear the timeout on each scroll event
+          clearTimeout(scrollTimeout);
+
+          // Set a timeout to execute after scrolling stops
+          scrollTimeout = setTimeout(function () {
+              function winScrollPosition() {
+                  var scrollPos = $(window).scrollTop(),
+                      winHeight = $(window).height();
+                  var scrollPosition = Math.round(scrollPos + winHeight / 1.2);
+                  return scrollPosition;
+              }
+
+              // Iterate over each odometer element
+              $('.odometer').each(function () {
+                  var elemOffset = $(this).offset().top;
+
+                  // Check if the element is in view based on scroll position
+                  if (elemOffset < winScrollPosition()) {
+                      var $this = $(this);
+                      var countTo = $this.data('count-to');
+
+                      // Reset odometer to 0 before starting the animation again
+                      if ($this.html() != countTo) {
+                          $this.html(0); // Reset to 0
+                          setTimeout(function () {
+                              $this.html(countTo); // Trigger counting to the original value
+                          }, 300); // Optional delay before starting the count again
+                      }
+                  }
+              });
+          }, 200); // 200ms delay to detect when scrolling has stopped
       });
-    }
   }
+}
+
   
 
   /*--------------------------------------------------------------
