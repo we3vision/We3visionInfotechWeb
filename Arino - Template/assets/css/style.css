@@ -7205,12 +7205,11 @@ label {
 }
 .cs-team.cs-style1 .cs-member_name {
   font-size: 22px;
-  color: black;
   margin-bottom: 6px;
 }
 .cs-team.cs-style1 .cs-member_info {
   position: absolute;
-  color: black;
+  left: 0;
   bottom: 0;
   width: 100%;
   z-index: 3;
