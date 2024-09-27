@@ -7191,6 +7191,7 @@ label {
 }
 .cs-team.cs-style1 .cs-member_overlay {
   position: absolute;
+  
   height: 100%;
   width: 100%;
   left: 0;
@@ -7205,10 +7206,12 @@ label {
 }
 .cs-team.cs-style1 .cs-member_name {
   font-size: 22px;
+  color: #000000;
   margin-bottom: 6px;
 }
 .cs-team.cs-style1 .cs-member_info {
   position: absolute;
+  color: #000000;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -7217,6 +7220,7 @@ label {
 }
 .cs-team.cs-style1 .cs-member_social {
   position: absolute;
+  /* color: #000000; */
   z-index: 2;
   left: 13px;
   top: 50px;
