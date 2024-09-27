@@ -7206,17 +7206,28 @@ label {
 }
 .cs-team.cs-style1 .cs-member_name {
   font-size: 22px;
-  color: #000000;
+  color: #fff;
+  font-family:'Acumin Variable Concept';
   margin-bottom: 6px;
 }
 .cs-team.cs-style1 .cs-member_info {
-  position: absolute;
+   position: absolute;
+   font-family:'Acumin Variable Concept';
   color: #000000;
+  font-weight: bold; 
   left: 0;
   bottom: 0;
   width: 100%;
   z-index: 3;
-  padding: 30px 25px;
+  padding: 30px 25px; 
+text-align: center;
+  /* new code  */
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust this to your preferred color */
+  color: #fff; /* Text color for contrast */
+  font-weight: bold; /* Makes the text bold */
+  padding: 5px 10px; /* Adds some padding to make the background color stand out */
+  border-radius: 5px; /* Optional: Adds rounded corners */
+  display: inline-block; /* Keeps the background color fit to the text size */
 }
 .cs-team.cs-style1 .cs-member_social {
   position: absolute;
