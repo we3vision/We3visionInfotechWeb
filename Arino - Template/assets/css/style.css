@@ -1349,7 +1349,7 @@ label {
   font-size: 120px;
   line-height: 1.2em;
   color: transparent;
-  -webkit-text-stroke: 2px #FF4A17;
+  -webkit-text-stroke: 2px #fe4343;
 }
 
 .cs-moving_text_in {
@@ -2836,8 +2836,8 @@ label {
 .cs-pagination.cs-style1 li {
   height: 16px;
   width: 16px;
-  background-color: #FF4A17;
-  border: 1px solid #FF4A17;
+  background-color: #fe4343;
+  border: 1px solid #fe4343;
   border-radius: 50%;
   margin: 0 8px;
   cursor: pointer;
@@ -2855,7 +2855,7 @@ label {
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  background-color: #FF4A17;
+  background-color: #fe4343;
 }
 .cs-pagination.cs-style1 li.slick-active {
   background-color: transparent;
@@ -3012,8 +3012,8 @@ label {
 }
 .cs-slider_arrows.cs-style1 .slick-arrow:hover {
   color: #fff;
-  background-color: #FF4A17;
-  border-color: #FF4A17;
+  background-color: #fe4343;
+  border-color: #fe4343;
 }
 
 .cs-slider_arrows.cs-style2 .slick-arrow {
@@ -3133,8 +3133,8 @@ label {
   z-index: 2;
 }
 .slider-for .slick-arrow:hover {
-  background-color: #FF4A17;
-  border-color: #FF4A17;
+  background-color: #fe4343;
+  border-color: #fe4343;
 }
 .slider-for .slick-prev {
   background-image: url(../img/prev_arrow.svg);
@@ -7203,6 +7203,9 @@ label {
 .cs-team.cs-style1 .cs-member_social svg {
   height: 20px;
   width: 20px;
+}
+.cs-team.cs-style1 .cs-member_social svg:hover {
+ color: #2a2bc7;
 }
 .cs-team.cs-style1 .cs-member_name {
   font-size: 22px;
