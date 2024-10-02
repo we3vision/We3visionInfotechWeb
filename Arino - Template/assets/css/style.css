@@ -1349,7 +1349,7 @@ label {
   font-size: 120px;
   line-height: 1.2em;
   color: transparent;
-  -webkit-text-stroke: 2px #fe4343;
+  -webkit-text-stroke: 2px #FF4A17;
 }
 
 .cs-moving_text_in {
@@ -7369,6 +7369,7 @@ text-align: center;
 .cs-cta.cs-style1.cs-type_1 {
   padding: 140px 30px 145px;
 }
+
 
 @media screen and (max-width: 1300px) {
   .cs-cta.cs-style1 .cs-cta_title {
