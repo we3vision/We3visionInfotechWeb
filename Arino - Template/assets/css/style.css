@@ -818,7 +818,7 @@ hr {
   width: 100%;
   bottom: 0;
   left: 0;
-  background-color: currentColor;
+  background-color: currentColor; /* line */
   -webkit-transform: scaleX(0);
           transform: scaleX(0);
   -webkit-transform-origin: 0 50%;
