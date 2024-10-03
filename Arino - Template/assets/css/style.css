@@ -1349,7 +1349,7 @@ label {
   font-size: 120px;
   line-height: 1.2em;
   color: transparent;
-  -webkit-text-stroke: 2px #FF4A17;
+  -webkit-text-stroke: 2px #fe4343;
 }
 
 .cs-moving_text_in {
@@ -4426,12 +4426,12 @@ label {
   margin: 7px;
 }
 .cs-social_btns.cs-style1 a:hover {
-  border-color: #FF4A17;
+  border-color: #fe4343;
   -webkit-transform: scale(1.08);
           transform: scale(1.08);
 }
 .cs-social_btns.cs-style1 a:hover svg {
-  fill: #FF4A17;
+  fill: #fe4343;
 }
 
 .cs-newsletter.cs-style1 .cs-newsletter_form {
@@ -4451,7 +4451,7 @@ label {
   padding: 7px 25px;
   border-radius: 10px;
   color: #fff;
-  background-color: #FF4A17;
+  background-color: #fe4343;
   position: absolute;
   top: 5px;
   right: 5px;
@@ -9545,4 +9545,5 @@ html .ui-button.ui-state-disabled:active {
     margin-right: auto; /* Added missing semicolon */
     margin-left: auto;
   }
-}/*# sourceMappingURL=style.css.map */ 
+}
+/*# sourceMappingURL=style.css.map */ 
