@@ -4427,6 +4427,7 @@ label {
 }
 .cs-social_btns.cs-style1 a:hover {
   border-color: #fe4343;
+  background-color: #fe4343;
   -webkit-transform: scale(1.08);
           transform: scale(1.08);
 }
