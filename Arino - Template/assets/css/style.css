@@ -7458,7 +7458,8 @@ text-align: center;
 .cs-testimonial.cs-style1 .cs-testimonial_avatar_name,
 .cs-testimonial.cs-style2 .cs-testimonial_avatar_name {
   font-size: 22px;
-  margin-bottom: 0;
+  margin-bottom: 50px;
+  color: #fe4343;
   margin-top: 70px;
 }
 .cs-testimonial.cs-style1 .cs-testimonial_avatar_designation,
