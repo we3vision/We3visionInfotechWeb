@@ -876,7 +876,7 @@ hr {
   line-height: 1.5em;
   font-weight: 600;
   border-radius: 15px;
-  background-color: #FF4A17;
+  background-color: #fe4343;
   color: #fff;
   cursor: pointer;
 }
@@ -983,7 +983,7 @@ hr {
   color: #fff;
 }
 .cs-form_field:focus {
-  border-color: #FF4A17;
+  border-color: #fe4343;
 }
 
 label {
@@ -1012,6 +1012,7 @@ label {
 }
 .cs-rating .cs-rating_percentage {
   width: 50%;
+  color: #fe4343;
 }
 .cs-rating.cs-size_sm {
   width: 83px;
@@ -1349,7 +1350,7 @@ label {
   font-size: 120px;
   line-height: 1.2em;
   color: transparent;
-  -webkit-text-stroke: 2px #FF4A17;
+  -webkit-text-stroke: 2px #fe4343;
 }
 
 .cs-moving_text_in {
@@ -1995,7 +1996,7 @@ label {
   width: 100%;
   right: -60px;
   bottom: -60px;
-  background-color: #FF4A17;
+  background-color: #fe4343;
   border-radius: inherit;
 }
 .cs-image_layer.cs-style1.cs-size_md {
@@ -4426,12 +4427,13 @@ label {
   margin: 7px;
 }
 .cs-social_btns.cs-style1 a:hover {
-  border-color: #FF4A17;
+  border-color: #fe4343;
+  background-color: #fe4343;
   -webkit-transform: scale(1.08);
           transform: scale(1.08);
 }
 .cs-social_btns.cs-style1 a:hover svg {
-  fill: #FF4A17;
+  fill: #fe4343;
 }
 
 .cs-newsletter.cs-style1 .cs-newsletter_form {
@@ -4451,7 +4453,7 @@ label {
   padding: 7px 25px;
   border-radius: 10px;
   color: #fff;
-  background-color: #FF4A17;
+  background-color: #fe4343;
   position: absolute;
   top: 5px;
   right: 5px;
@@ -4723,7 +4725,7 @@ label {
   left: 50%;
   margin-left: -5px;
   border-radius: 50%;
-  background-color: #FF4A17;
+  background-color: #fe4343;
   bottom: -5px;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
@@ -4742,7 +4744,7 @@ label {
           justify-content: flex-start;
 }
 .cs-isotop_filter.cs-style1 .active a {
-  color: #FF4A17;
+  color: #fe4343;
 }
 .cs-isotop_filter.cs-style1 .active a::before {
   -webkit-transform: scale(1);
@@ -9545,4 +9547,5 @@ html .ui-button.ui-state-disabled:active {
     margin-right: auto; /* Added missing semicolon */
     margin-left: auto;
   }
-}/*# sourceMappingURL=style.css.map */ 
+}
+/*# sourceMappingURL=style.css.map */ 
