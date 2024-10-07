@@ -3659,7 +3659,7 @@ label {
   cursor: pointer;
   border: 2px solid currentColor;
   border-radius: 50%;
-  color: #fff;
+  color: #fff; /* side header color */
 }
 .cs-site_header.cs-style1 .cs-icon_btn .cs-icon_btn_in {
   width: 18px;
