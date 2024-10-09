@@ -7400,7 +7400,7 @@ text-align: center;
     padding: 70px 20px;
   }
   .cs-cta.cs-style1 .cs-cta_title {
-    font-size: 28px;
+    font-size: 20px; /* 28 */
   }
 }
 /*--------------------------------------------------------------
