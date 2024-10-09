@@ -7187,24 +7187,29 @@ label {
   /* width: 100%; */
   position: relative;
   z-index: 1;
+  filter: grayscale(100%);
+  
   border-radius: inherit;
   -webkit-transition: all 0.8s ease;
   transition: all 0.8s ease;
 }
 
-.team-slider {
+.team-slider{
   /* display: flex; */
   width: calc(312px * 14);
-  animation: slide 20s linear infinite; /* Animates the entire slider */
+  animation: slide 50s linear infinite; 
+ 
 }
 
-
 @keyframes slide {
+
   0% {
     transform: translateX(0);
+
   }
   100% {
     transform: translateX(calc(-312px * 14)); /* Moves the slider left by the width of all images */
+    
   }
 }
 
@@ -7226,6 +7231,7 @@ label {
 .cs-team.cs-style1 .cs-member_social svg:hover {
  color: #2a2bc7;
 }
+
 .cs-team.cs-style1 .cs-member_name {
   font-size: 22px;
   color: #fff;
@@ -7282,6 +7288,9 @@ text-align: center;
   opacity: 1;
 }
 .cs-team.cs-style1:hover .cs-member_thumb img {
+  filter: grayscale(0%);
+  transition: all ease 2s;
+ 
   -webkit-transform: scale(1.06) translateY(8px);
           transform: scale(1.06) translateY(8px);
 }
@@ -9223,6 +9232,7 @@ html .ui-button.ui-state-disabled:active {
   -webkit-transform: scaleX(1) rotate(180deg);
           transform: scaleX(1) rotate(180deg);
 }
+
 .rtl .cs-hero_social_wrap,
 .rtl .cs-toolbox,
 .rtl .cs-slider_container,
