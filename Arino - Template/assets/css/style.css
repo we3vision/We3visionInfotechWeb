@@ -7184,13 +7184,30 @@ label {
   overflow: hidden;
 }
 .cs-team.cs-style1 .cs-member_thumb img {
-  width: 100%;
+  /* width: 100%; */
   position: relative;
   z-index: 1;
   border-radius: inherit;
   -webkit-transition: all 0.8s ease;
   transition: all 0.8s ease;
 }
+
+.team-slider {
+  /* display: flex; */
+  width: calc(312px * 14);
+  animation: slide 20s linear infinite; /* Animates the entire slider */
+}
+
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-312px * 14)); /* Moves the slider left by the width of all images */
+  }
+}
+
 .cs-team.cs-style1 .cs-member_overlay {
   position: absolute;
   
