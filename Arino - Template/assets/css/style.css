@@ -6838,6 +6838,7 @@ label {
   margin-bottom: 10px;
 }
 .cs-card.cs-style1 .cs-card_title {
+  text-align: center;
   font-size: 22px;
   margin: 0;
   line-height: 1.5em;
