@@ -157,6 +157,16 @@
     });
   }
 
+  // start portfolio header 
+  
+  document.getElementById('menu-toggle').addEventListener('click', function() {
+    const nav = document.querySelector('.cs-nav');
+    nav.classList.toggle('open');
+  });
+
+  // end  portfolio header 
+
+  
   /*--------------------------------------------------------------
     4. Dynamic Background
   --------------------------------------------------------------*/

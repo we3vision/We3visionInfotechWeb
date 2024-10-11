@@ -3579,6 +3579,135 @@ label {
 /*--------------------------------------------------------------
 7. Header
 ----------------------------------------------------------------*/
+
+
+/* new code start */
+/* ****************************************************************************** */
+.cs-dropdown {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 180px;
+  top: 100%;
+  left: 0;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.cs-has_dropdown:hover .cs-dropdown {
+  display: block;
+}
+
+.cs-dropdown li {
+  list-style: none;
+}
+
+.cs-dropdown li a {
+  display: block;
+  padding: 10px 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.cs-dropdown li a:hover {
+  background-color: #fe4343;
+}
+
+/* Hamburger menu for mobile */
+.cs-icon_btn {
+  display: none;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.cs-icon_btn_in {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.cs-icon_btn_in span {
+  width: 30px;
+  height: 3px;
+  background-color: #fff;
+}
+
+/* Responsive CSS for smaller screens */
+@media (max-width: 1024px) {
+  .cs-nav {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #000;
+  }
+
+  .cs-nav_list {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .cs-nav_list li {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+
+  .cs-dropdown {
+    position: relative;
+    top: 0;
+    left: 0;
+    box-shadow: none;
+  }
+
+  .cs-dropdown li a {
+    font-size: 14px; /* Adjust the font size for dropdown items on mobile */
+    padding: 8px 10px; /* Adjust padding for better touch targets */
+  }
+
+  .cs-icon_btn {
+    display: block; /* Show hamburger menu on smaller screens */
+  }
+
+  .cs-nav.open {
+    display: flex; /* Show the nav when the hamburger is clicked */
+  }
+}
+
+/* Additional responsive adjustments for tablets */
+@media (max-width: 768px) {
+  .cs-dropdown li a {
+    font-size: 14px; /* Adjust font size for tablets */
+    padding: 8px 10px; /* Adjust padding for touch targets */
+  }
+
+  .cs-nav_list {
+    flex-direction: column; /* Stack nav items vertically */
+  }
+
+  .cs-nav_list li {
+    width: 100%; /* Full width for each nav item */
+  }
+}
+
+/* Adjustments for larger screens (desktop) */
+@media (min-width: 1025px) {
+  .cs-nav {
+    display: flex; /* Show nav items inline */
+  }
+
+  .cs-dropdown {
+    display: none; /* Hide dropdown by default */
+  }
+
+  .cs-has_dropdown:hover .cs-dropdown {
+    display: block; /* Show dropdown on hover */
+  }
+}
+/* ****************************************************************************** */
+/* new code end */
+
+
+
 .cs-site_header {
   position: relative;
   z-index: 101;
@@ -5119,6 +5248,7 @@ label {
 .cs-hero.cs-style1 .cs-hero_title {
   font-size: 120px;
   font-weight: 700;
+  
   margin-bottom: 60px;
   line-height: 1.25em;
 }
