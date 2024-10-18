@@ -1157,16 +1157,18 @@ label {
 
 /* ............................ */
 
-.cs-cursor_lg {
-  width: 40px;
-  height: 40px;
-  border: 1px solid #fe4343;
-  left: 0;
-  top: 0;
-  pointer-events: none;
-  -webkit-transition: 0.15s;
-  transition: 0.15s;
-}
+  /* cursor class */
+
+  .cs-cursor_lg {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fe4343;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    -webkit-transition: 0.15s;
+    transition: 0.15s;
+  }
 
 /* ............................ */
 
