@@ -1,0 +1,85 @@
+Conversation with Hostinger
+Started on September 21, 2024 at 12:10 PM Vilnius time EEST (GMT+0300)
+
+---
+
+12:10 PM | We3 Vision: from last few days my domain status is not accusable, WHY?
+
+12:10 PM | Kodee from Hostinger: Could you please provide the domain name you're experiencing issues with? This will help me investigate the problem further.
+
+12:10 PM | We3 Vision: we3visioninfotech.com
+
+12:11 PM | Kodee from Hostinger: The domain "we3visioninfotech.com" is currently under review by our dedicated team. Please allow 24 to 48 hours for the review process to complete. Once done, the domain status will be updated in your hPanel (https://hpanel.hostinger.com/domains).
+
+12:11 PM | We3 Vision: how many days it will take to come out of review
+
+12:11 PM | Kodee from Hostinger: The review process typically takes between 24 to 48 hours. If it takes longer than this, please let me know so I can assist you further.
+
+12:12 PM | We3 Vision: but i purchased at 15th sep
+
+12:12 PM | Kodee from Hostinger: The domain "we3visioninfotech.com" is still under review by our dedicated team. Please wait for 24 to 48 hours for the review to be completed. You can check the domain status in your hPanel (https://hpanel.hostinger.com/domains) once it's updated.
+
+12:12 PM | We3 Vision: so now 24 hr / 48 hr completed befor days ago
+
+12:12 PM | We3 Vision: i want live chat
+
+12:13 PM | We3 Vision: please connect to the agent
+
+12:13 PM | Kodee from Hostinger: I’m now connecting you with our Customer Success Team for further help. A specialist will join us soon and will have access to our chat history, so you won’t need to repeat anything unless you want to add more details.
+
+12:13 PM | We3 Vision: so tell me what is the benefit of using your service
+
+12:14 PM | We3 Vision: connect with your Customer Success Team
+
+12:14 PM | Richie from Hostinger: Hello! It's Richie here, I'm ready to assist you.
+
+12:14 PM | Richie from Hostinger: I see, thank you for the details! Please give me 8-10 minutes to check and I'll get back to you.
+
+12:14 PM | We3 Vision: hi
+
+12:14 PM | We3 Vision: sure
+
+12:15 PM | We3 Vision: please i want to start my website asap
+
+12:17 PM | We3 Vision: please give me your contact details so i my company team can call you
+
+12:18 PM | Richie from Hostinger: Ah, so unfortunately we currently help via chat and email only. It's much more convenient and efficient, as we can easily exchange information (e.g., screenshots and links) and quickly solve any issue together. 
+ 
+ Just let me know what you need help with, and I'll assist you the best I can.
+
+12:18 PM | We3 Vision: ok
+
+12:18 PM | We3 Vision: see at 15th sep 2024 i took one plan
+
+12:19 PM | We3 Vision: for my company website and now i am not able to use that domain
+
+12:19 PM | Richie from Hostinger: Done, I would like to note that I already register this domain for you, and now you can set that up from your home page ✔️ 
+ 
+ Previously it is not activated due to the INFO keyword, which is suspicious. It's active now and waiting for your verification from the mail: 
+ [Image "image.png?expires=1726911900&signature=c97fa4090b99bdc001fecc9ce6766b7d251335462bf9fcdaada4d447f967d6ef&req=dSEvHsl%2Fn4NYW%2FMW1HO4zTwDNh710SVsmSUjSFzDgWoFxb0Bv24W2xOi%2BO61%0A3k0D%0A"] 
+ Please note that all users must comply with our terms of service (https://www.hostinger.com/universal-terms-of-service-agreement), as our company supports the protection of intellectual property and strives to ensure a safe and trusted platform for all users on the internet. 
+ 
+ Do keep in mind that it might take up to 24 hours for DNS changes to fully propagate worldwide. So DNS propagation is the time it takes updates to DNS records to be in full effect across all servers on the internet. But don't worry, it usually propagates much faster than that! 🗺️ 
+ 
+ Let me know how it goes and if you have any more questions, I'll be here for you!
+
+12:19 PM | We3 Vision: and i have to present my company to some events. and for that i required the hosting
+
+12:20 PM | Richie from Hostinger: I see, thank you for the details. Domain is active now, you may use it as I have manually approve the name. 
+ 
+ Let me know if there's anything else I could do for you in the meantime, I'll be here to assist!
+
+12:21 PM | We3 Vision: just tell me one thing when i can host my website with this domain
+
+12:21 PM | We3 Vision: how much day it will take ?
+
+12:22 PM | Richie from Hostinger: Good question, you need to verify the domain first from your registered email, then domain will be activated after 24 hours. 
+ 
+ Do keep in mind that it might take up to 24 hours for DNS changes to fully propagate worldwide after it was activated. So DNS propagation is the time it takes updates to DNS records to be in full effect across all servers on the internet. But don't worry, it usually propagates much faster than that! 🗺️ 
+ 
+ Let me know if there's anything else I could do for you in the meantime, I'll be here to assist!
+
+12:22 PM | We3 Vision: ok sure how can i verify the domain ?
+
+---
+Exported from Hostinger on September 21, 2024 at 12:22 PM Vilnius time EEST (GMT+0300)
